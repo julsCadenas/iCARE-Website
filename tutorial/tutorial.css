@@ -1,0 +1,303 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8eae0;
+    margin: 0;
+}
+
+.template {
+    position: relative;
+    max-width: 100%;
+}
+
+#dahon {
+    position: fixed;
+    height: 100vh;
+    width: auto;
+    border: 0;
+    float: left;
+    left: -600px;
+    animation: moveRight 3s ease forwards;
+}
+
+@keyframes moveRight {
+    from{
+        left: -600px;
+    }
+    to{
+        left: 0;
+    }
+}
+
+#icare {
+    position: relative;
+    height: 10%;
+    width: 10%;
+    margin-top: 150px;
+    margin-left: 50px;
+    animation: moveRightCare 3s ease forwards;
+}
+
+@keyframes moveRightCare {
+    from{
+        margin-left: 50px;
+    }
+    to{
+        margin-left: 650px;
+    }
+}    
+
+#feutech {
+    position: absolute;
+    transform: scale(70%, 70%);
+    margin-top: 290px;
+    left: -500px;
+    float: left;
+    animation: moveLeftFeut 3s ease forwards;
+}
+
+@keyframes moveLeftFeut {
+    from{
+        left: -500px;
+    }
+    to{
+        left: 220px;
+    }
+}
+
+#tams {
+    position: fixed;
+    float: right;
+    top: 80%;
+    left: 73%;
+    bottom: 0;
+    right: 0;
+    transform: scale(30%);
+    animation: tamsUp 3s ease forwards;
+}
+
+@keyframes tamsUp{
+    from{
+        top: 80%;
+    }
+    to{
+        top: 45.4%;
+    }
+}
+
+
+.book {
+    font-family: poppins;
+    position: absolute;
+    color: #483c32;
+    top: 50px; 
+    left: 1330px;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    font-size: 24px; 
+    text-align: center;
+}
+
+.urinfo{
+    font-family: poppins;
+    position: absolute;
+    color: #483c32;
+    top: 125px; 
+    left: 1330px;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    font-size: 20px; 
+    text-align: center;
+}
+
+.prof{
+    font-family: poppins;
+    position: absolute;
+    color: #483c32;
+    top: 437px; 
+    left: 1330px;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    font-size: 20px; 
+    text-align: center; 
+}
+
+.studentInfo{
+    position: absolute;
+    top: 195px; 
+    left: 1330px; 
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.studentInfo input[type="text"] {
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.1);
+    display: block; 
+    margin: 10px auto; 
+    font-family: poppins;
+    outline: none;
+    width: 710px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: text;
+}
+
+.studentInfo input[type="datetime-local"] {
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.1);
+    color: #555;
+    display: block; 
+    margin: 10px auto; 
+    font-family: poppins;
+    outline: none;
+    width: 700px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: text;
+}
+
+.facultyInfo input[type="text"]{
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.1);
+    display: block; 
+    margin: 10px auto; 
+    font-family: poppins;
+    outline: none;
+    width: 710px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: text;
+}
+
+.facultyInfo {
+    position: absolute;
+    top: 510px; 
+    left: 1330px; 
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.facultyInfo select {
+    display: block; 
+    color: #555;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.1);
+    width: 710px; 
+    margin: 10px auto; 
+    outline: none;
+    font-size: 17px;
+    font-family: poppins;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+.submitBtn {
+    position: absolute;
+    top: 765px; 
+    left: 1330px; 
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.submitBtn button {
+    display: block;
+    height: 48px;
+    width: 200px;
+    margin-bottom: 10px; 
+    border: none;
+    border-radius: 10px;
+    background-color: #DDE1CD;
+    color: #483c32;
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.submitBtn button:hover {
+    transform:scale(1.24);
+}
+
+@keyframes hoverEnlarge{
+    from{    
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes hoverShrink{
+    from{    
+        transform: scale(1.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.backBtn{
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    transform: translateX(-50%,-50%);
+    background-color: #DDE1CD;
+    border: none;
+    text-decoration: none;
+    color:#483c32;
+    font-family: poppins;
+    font-size: 2.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    width: 60px;
+    top: 2%;
+    left: 40%;
+    cursor: pointer;
+    transition: transform 0.5s;
+    animation: moveRightBack 3s ease forwards;
+}
+
+@keyframes moveRightBack{
+    from{
+        left: -100%;
+    }
+    to{
+        left: 40%;
+    }
+}
+
+.backBtn:hover{
+    transform:scale(1.2);
+}
