@@ -1,0 +1,481 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-color: #e8eae0;
+    margin:0;
+}
+
+.template{
+    position: relative;
+    max-width: 100%;
+}
+
+#dahon{
+    position: absolute;
+    height: 100vh;
+    width: auto;
+    border: 0;
+    float: left;
+    /* filter: blur(3px); */
+    left: -600px;
+    animation: moveLeft 3s ease forwards;
+}
+
+@keyframes moveLeft {
+    from{
+        left: 0;
+    }
+    to{
+        left: -600px;
+    }
+}
+
+#icare{
+    position: relative;
+    height: 10%;
+    width: 10%;
+    margin-top: 150px;
+    margin-left: 50px;
+    animation: moveLeftCare 3s ease forwards;
+}
+
+@keyframes moveLeftCare{
+    from{
+        margin-left: 650px;
+    }
+    to{
+        margin-left: 50px;
+    }
+}
+
+#feutech{
+    position: absolute;
+    transform:scale(70%,70%);
+    margin-top: 290px;
+    left: 220px;
+    float: left;
+    animation: moveLeftFeut 3s ease forwards;
+}
+
+@keyframes moveLeftFeut {
+    from{
+        left: 220px;
+    }
+    to{
+        left: -500px;
+        visibility: hidden;
+    }
+}
+
+#tams {
+    position: absolute;
+    float: right;
+    top: 45.4%;
+    left: 73%;
+    bottom: 0;
+    right: 0;
+    transform: scale(30%);
+    animation: tamsDown 3s ease forwards;
+}
+
+@keyframes tamsDown{
+    from{
+        top: 45.4%;
+    }
+    to{
+        top: 80%;
+        visibility: hidden;
+    }
+}
+
+.buttons {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.buttons button {
+    height: 25px;
+    width: 180px;
+    border: none;
+    background-color: #DDE1CD;
+    display: block;
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 799;
+    color: #483c32;
+    transition: transform 0.5s;
+}
+
+.buttons button:hover{
+    transform:scale(3.5);
+}
+
+@keyframes hoverEnlarge{
+    from{    
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes hoverShrink{
+    from{    
+        transform: scale(1.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#sidePanel {
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100%;
+    color: #fff;
+    transition: right 0.5s;
+}
+
+#facultyBtn {
+    display: block;
+    width: 165px;
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #DDE1CD;
+    color: #483c32;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+#facultyBtn:hover{
+    transform:scale(1.169);
+}
+
+#logoutBtn {
+    display: block;
+    width: 165px;
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #DDE1CD;
+    color: #483c32;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+#logoutBtn:hover{
+    transform:scale(1.169);
+}
+
+@keyframes enlarge{
+    from{    
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.169);
+    }
+}
+
+@keyframes shrink{
+    from{    
+        transform: scale(1.169);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+#mainContent {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#menuBtn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 2.5em;
+    background-color: #DDE1CD;
+    border: none;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: right 0.5s;
+}
+
+.scheduleContainer {
+    justify-content: center; 
+    align-items: center; 
+    position: fixed;
+    top: 50%; 
+    left: 1000%; 
+    height: 850px;
+    width: 1300px;
+    overflow: auto;
+    transform: translate(-50%, -50%); 
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: tableAnimation 3s ease forwards;
+}
+
+@keyframes tableAnimation{
+    from{
+        left: 90%; 
+    }
+    to{
+        left: 50%;
+    }
+}
+
+.tableHeader{
+    font-family: poppins;
+    margin-bottom: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CFC8B8; 
+    border-radius: 10px;
+  }
+
+.tablebuttons button{
+    font-family: poppins;
+    height: 25px;
+    width: 140px;
+    border: none;
+    background-color: #DDE1CD;
+    /* display: block; */
+    box-shadow: 3px 5px #CFC8B8;
+    margin-right: 5px; 
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 799;
+    color: #483c32;
+    transition: transform 0.5s;
+}
+
+.tablebuttons button:hover{
+    transform:scale(1.1);
+}
+
+.tableButtons button:active{
+    background-color: #483c32;
+    color: #DDE1CD;
+}
+
+@keyframes hoverEnlarge{
+    from{    
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+@keyframes hoverShrink{
+    from{    
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.cpeTable {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    /* background-color: #DFF6CA; */
+    border-radius: 20px;
+    top:15px;
+}
+
+.eeeTable {
+    position: relative;
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    /* background-color: #FFFFD9; */
+    border-radius: 20px;
+    top:15px;
+}
+
+.meTable {
+    position: relative;
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    /* background-color: #FFFFD9; */
+    border-radius: 20px;
+    top:15px;
+}
+
+.ceTable {
+    position: relative;
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    /* background-color: #FFFFD9; */
+    border-radius: 20px;
+    top:15px;
+}
+
+.hscTable {
+    position: relative;
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    /* background-color: #FFFFD9; */
+    border-radius: 20px;
+    top:15px;
+}
+
+.mpsTable {
+    position: relative;
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    /* background-color: #FFFFD9; */
+    border-radius: 20px;
+    top:15px;
+}
+
+.itTable {
+    position: relative;
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    /* background-color: #FFFFD9; */
+    border-radius: 20px;
+    top:15px;
+}
+
+.csTable {
+    position: relative;
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    /* background-color: #FFFFD9; */
+    border-radius: 20px;
+    top:15px;
+}
+
+.tablebuttons button:active,
+.tablebuttons button.active { 
+    box-shadow: 3px 5px #CFC8B8; 
+    background-color: #483c32 !important;
+    color: #DDE1CD !important;
+}
+
+.breakline {
+    display: block; 
+    margin: 17px 0; 
+    border: none; 
+    content: ""; 
+    height: 2.5px; 
+    background-color: #483c32; 
+}
+
+.schedule {
+    font-family: poppins;
+    border-collapse: collapse;
+    border-radius: 5px 5px 0 0;
+    margin: -17px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    width: 100%; 
+    height: 30%; 
+    max-width: none; 
+    max-height: none; 
+    overflow: hidden;
+}
+
+.schedule thead tr{
+    background-color: #CFC8B8;
+    text-align: left;
+    font-size: large;
+}
+
+.schedule th,
+.schedule td {
+    padding: 12px 15px;
+}
+
+.schedule tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.schedule tbody tr:nth-of-type(even) {
+    background-color: #e8eae0;
+}
+
+.schedule tbody tr:last-of-type{
+    border-bottom: 2px solid #CFC8B8;
+}
+
+#profname{
+    font-weight: bold;
+    font-size: large;
+}
+
+#onoff{
+    font-weight: bolder;
+    font-size: x-large;
+}
