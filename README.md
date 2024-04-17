@@ -23,15 +23,15 @@ The sql database file is imported into phpmyadmin with a database of the same na
 
 ![IndexDashboard](images/screenshots/IndexDashboard.png)
 
-# The website's homepage displays the two types of users who can access the site.
+### The website's homepage displays the two types of users who can access the site.
 
 ![LoginPage](images/screenshots/LoginPage.png)
 
-# The login page, this layout is similar for both the staff and students
+### The login page, this layout is similar for both the staff and students
 
 ![StudentDashboard](images/screenshots/StudentDashboard.png)
 
-# A logged-in student's dashboard where he can check if his professor is online and book consultations or tutorials
+### A logged-in student's dashboard where he can check if his professor is online and book consultations or tutorials
 
 
 
