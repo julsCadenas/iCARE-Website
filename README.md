@@ -21,17 +21,26 @@ The sql database file is imported into phpmyadmin with a database of the same na
 
 ## The Website: 
 
-![IndexDashboard](images/screenshots/IndexDashboard.png)
-
 ### The website's homepage displays the two types of users who can access the site.
 
-![LoginPage](images/screenshots/LoginPage.png)
+![IndexDashboard](images/screenshots/IndexDashboard.png)
 
 ### The login page, this layout is similar for both the staff and students
 
-![StudentDashboard](images/screenshots/StudentDashboard.png)
+![LoginPage](images/screenshots/LoginPage.png)
 
 ### A logged-in student's dashboard where he can check if his professor is online and book consultations or tutorials
+
+![StudentDashboard](images/screenshots/StudentDashboard.png)
+
+### The faculty monitoring page where the users can check if a professor is ONLINE or OFFLINE
+
+![FacultyMonitoring](images/screenshots/FacultyMonitoring.png)
+
+### The student's name, student number and email is already automatically inputted from their login credentials if they choose to book a consultation or tutorial
+
+![ConsulationBooking](images/screenshots/ConsultationBooking.png)
+![TutorialBooking](images/screenshots/TutorialBooking.png)
 
 
 
