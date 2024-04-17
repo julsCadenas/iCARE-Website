@@ -29,7 +29,7 @@ The sql database file is imported into phpmyadmin with a database of the same na
 
 ![LoginPage](images/screenshots/LoginPage.png)
 
-### A logged-in student's dashboard where he can check if his professor is online and book consultations or tutorials
+### A logged-in student can use the dashboard to check if their professor is online and to book consultations or tutorials
 
 ![StudentDashboard](images/screenshots/StudentDashboard.png)
 
@@ -37,7 +37,7 @@ The sql database file is imported into phpmyadmin with a database of the same na
 
 ![FacultyMonitoring](images/screenshots/FacultyMonitoring.png)
 
-### The student's name, student number and email is already automatically inputted from their login credentials if they choose to book a consultation or tutorial
+### The student's name, student number, and email address are automatically populated from their login credentials when they book a consultation or tutorial
 
 ![ConsulationBooking](images/screenshots/ConsultationBooking.png)
 ![TutorialBooking](images/screenshots/TutorialBooking.png)
@@ -46,7 +46,7 @@ The sql database file is imported into phpmyadmin with a database of the same na
 
 ![StaffDashboard](images/screenshots/StaffDashboard.png)
 
-### The staff can view the tutorials and consultation services booked by students and update it whether it is successful or not 
+### Staff can view the tutorials and consultation services booked by students and update the status to indicate whether they were successful or not.
 
 ![ServiceForm](images/screenshots/ServiceForm.png)
 ![TutorialMonitor](images/screenshots/TutorialMonitor.png)
