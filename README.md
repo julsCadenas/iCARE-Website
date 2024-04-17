@@ -33,7 +33,7 @@ The sql database file is imported into phpmyadmin with a database of the same na
 
 ![StudentDashboard](images/screenshots/StudentDashboard.png)
 
-### The faculty monitoring page where the users can check if a professor is ONLINE or OFFLINE
+### The faculty monitoring page where the users (student and staff) can check if a professor is ONLINE or OFFLINE
 
 ![FacultyMonitoring](images/screenshots/FacultyMonitoring.png)
 
@@ -42,5 +42,19 @@ The sql database file is imported into phpmyadmin with a database of the same na
 ![ConsulationBooking](images/screenshots/ConsultationBooking.png)
 ![TutorialBooking](images/screenshots/TutorialBooking.png)
 
+### The dashboard provides staff with access to information and tasks they can to perform
 
+![StaffDashboard](images/screenshots/StaffDashboard.png)
 
+### The staff can view the tutorials and consultation services booked by students and update it whether it is successful or not 
+
+![ServiceForm](images/screenshots/ServiceForm.png)
+![TutorialMonitor](images/screenshots/TutorialMonitor.png)
+
+### Only staff can access the database of faculties and their respective schedules, which are sorted by department.
+
+![FacultySchedule](images/screenshots/FacultySchedule.png)
+
+## The Database Schema:
+
+![DatabaseSchema](images/screenshots/DatabaseSchema.png)
