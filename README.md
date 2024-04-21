@@ -62,6 +62,9 @@ The sql database file is imported into phpmyadmin with a database of the same na
 ## CONTRIBUTORS:
 
 **Cadenas, Julian Sebastian**
+
 **Cormier, Joshua** 
+
 **Guerzon, Daryl**
+
 **Javier, Christian Lawrence**
