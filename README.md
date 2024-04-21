@@ -68,3 +68,5 @@ The sql database file is imported into phpmyadmin with a database of the same na
 **Guerzon, Daryl**
 
 **Javier, Christian Lawrence**
+
+**Vitasa, Bonifacio Jr.**
